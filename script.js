@@ -60,8 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
         heroVideo.muted = false;
         soundIcon.classList.replace('fa-volume-xmark', 'fa-volume-high');
         if (soundText) soundText.textContent = 'AUDIO ON';
-        soundToggle.style.color = '#d8b47f';
-        soundToggle.style.borderColor = '#d8b47f';
+        soundToggle.style.color = '#D41514';
+        soundToggle.style.borderColor = '#D41514';
       } else {
         heroVideo.muted = true;
         soundIcon.classList.replace('fa-volume-high', 'fa-volume-xmark');
