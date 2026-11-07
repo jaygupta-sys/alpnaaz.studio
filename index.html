@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpnaaz Aesthetic Studio | Luxury Hair, Bridal & Beauty Sanctuary</title>
+  <meta name="description" content="Alpnaaz Aesthetic Studio & Salon - Haute couture bridal makeup, precision dry haircuts, keratin restoration, and luxury aesthetics. Experience timeless elegance.">
+  <meta name="keywords" content="Alpnaaz Salon, luxury hair salon, bridal makeup artist, dry haircuts, keratin treatment, balayage, skin aesthetics">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="public/logo.png">
+  
+  <!-- Google Fonts: Editorial Serif + Modern Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Subtle Cinematic Film-Grain Texture Overlay (Pure SVG data) -->
+  <div class="film-grain-overlay" aria-hidden="true"></div>
+
+  <!-- ==============================================
+       HEADER / NAVIGATION BAR (Exact Reference Match)
+       ============================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <!-- Left: Minimalist Hamburger Menu Button -->
+      <button class="menu-toggle-btn" id="menuToggle" aria-label="Open Navigation Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="menu-text">MENU</span>
+      </button>
+
+      <!-- Center: Logo (alpnaaz logo from reference) -->
+      <a href="#hero" class="brand-logo-container" aria-label="Alpnaaz Aesthetic Studio Home">
+        <img src="public/hero logo.png" alt="Alpnaaz Aesthetic Studio" class="brand-logo-img">
+      </a>
+
+      <!-- Right: Action Button -->
+      <div class="header-actions">
+        <button class="pill-btn header-schedule-btn" id="headerScheduleBtn">
+          SCHEDULE NOW
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==============================================
+       SLIDE-OUT LUXURY NAVIGATION DRAWER
+       ============================================== -->
+  <div class="nav-drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="nav-drawer" id="navDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="public/logo.png" alt="Alpnaaz Icon" class="drawer-logo-icon">
+        <span class="drawer-brand-name">ALPNAAZ</span>
+      </div>
+      <button class="drawer-close-btn" id="drawerClose" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <ul class="drawer-menu-list">
+        <li><a href="#hero" class="drawer-link active"><span class="link-num">01</span> Home</a></li>
+        <li><a href="#services" class="drawer-link"><span class="link-num">02</span> Signature Craft</a></li>
+        <li><a href="#menu-pricing" class="drawer-link"><span class="link-num">03</span> Menu & Pricing</a></li>
+        <li><a href="#bridal-suite" class="drawer-link"><span class="link-num">04</span> Bridal Couture Lounge</a></li>
+        <li><a href="#experience" class="drawer-link"><span class="link-num">05</span> The Sanctuary</a></li>
+        <li><a href="#reviews" class="drawer-link"><span class="link-num">06</span> Client Praises</a></li>
+        <li><a href="#contact" class="drawer-link"><span class="link-num">07</span> Contact & Hours</a></li>
+      </ul>
+    </nav>
+
+    <div class="drawer-footer">
+      <div class="drawer-contact-info">
+        <p class="drawer-hours"><i class="fa-regular fa-clock"></i> Mon – Sun: 10:00 AM – 8:30 PM</p>
+        <p class="drawer-phone"><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <p class="drawer-location"><i class="fa-solid fa-location-dot"></i> Luxury Boulevard, VIP Studio Row</p>
+      </div>
+
+      <div class="drawer-socials">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="tel:+919876543210" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+
+      <button class="pill-btn full-width drawer-book-btn" id="drawerBookBtn">
+        BOOK APPOINTMENT
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==============================================
+       HERO SECTION (Exact Reference Replication)
+       ============================================== -->
+  <section class="hero-section" id="hero">
+    <!-- Background Video Element -->
+    <div class="hero-video-wrapper">
+      <video id="heroVideo" class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="public/hero.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <!-- Cinematic Vignette & Ambient Darkness Overlay -->
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Centered Hero Content Block -->
+    <div class="hero-content">
+      <!-- Eyebrow Subtitle (Spaced uppercase, subtle) -->
+      <p class="hero-eyebrow">PREMIER LUXURY BEAUTY &amp; MAKEUP SANCTUARY</p>
+
+      <!-- Main Headline: Editorial Serif with italic "full service" -->
+      <h1 class="hero-title">
+        A <em>full service</em> aesthetic studio.
+      </h1>
+
+      <!-- Services Subtitle Dots List -->
+      <div class="hero-services-list">
+        <span>BRIDAL MAKEUP</span>
+        <span class="dot">•</span>
+        <span>DRY HAIRCUTS</span>
+        <span class="dot">•</span>
+        <span>KERATIN</span>
+        <span class="dot">•</span>
+        <span>BALAYAGE</span>
+        <span class="dot">•</span>
+        <span>AESTHETICS</span>
+      </div>
+
+      <!-- Dual Call-to-Action Buttons -->
+      <div class="hero-cta-group">
+        <button class="pill-btn btn-solid hero-btn" id="heroScheduleBtn">
+          SCHEDULE ONLINE
+        </button>
+        <a href="#menu-pricing" class="pill-btn btn-glass hero-btn">
+          SEE THE MENU
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Bar of Hero: Social Link & Ambient Audio Toggle -->
+    <div class="hero-footer-bar">
+      <div class="hero-footer-left">
+        <button class="sound-toggle-btn" id="soundToggle" aria-label="Toggle Sound">
+          <i class="fa-solid fa-volume-xmark" id="soundIcon"></i>
+          <span class="sound-text" id="soundText">AUDIO OFF</span>
+        </button>
+      </div>
+
+      <div class="hero-social-tag">
+        FOLLOW US <a href="https://instagram.com" target="_blank" rel="noopener" class="social-handle">@ALPNAAZ_AESTHETICS</a>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <a href="#services" class="scroll-arrow" aria-label="Scroll to services">
+          <span class="scroll-label">SCROLL</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       EDITORIAL FLOATING MARQUEE (High-Fashion Ticker)
+       ============================================== -->
+  <div class="editorial-marquee-section" aria-hidden="true">
+    <div class="editorial-marquee-track">
+      <div class="editorial-marquee-group">
+        <span class="marquee-item"><span class="marquee-star">✦</span> HAUTE COUTURE BRIDAL</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PRECISION DRY CUTTING</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> CELLULAR BOND REPAIR</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PARISIAN BALAYAGE</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PRIVATE SANCTUARY</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> BESPOKE BRIDAL SUITE</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> 100% STERILE RITUALS</span>
+      </div>
+      <div class="editorial-marquee-group" aria-hidden="true">
+        <span class="marquee-item"><span class="marquee-star">✦</span> HAUTE COUTURE BRIDAL</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PRECISION DRY CUTTING</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> CELLULAR BOND REPAIR</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PARISIAN BALAYAGE</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> PRIVATE SANCTUARY</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> BESPOKE BRIDAL SUITE</span>
+        <span class="marquee-item"><span class="marquee-star">✦</span> 100% STERILE RITUALS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==============================================
+       SIGNATURE REELS / VIDEO SHOWCASE (User's Videos)
+       ============================================== -->
+  <section class="section signature-section" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">THE ARTISTRY OF TRANSFORMATION</span>
+        <h2 class="section-title">Signature Studio Services</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          Every client is a muse. Witness our master artisans sculpt, color, and elevate beauty with bespoke precision and world-class care.
+        </p>
+      </div>
+
+      <!-- Grid of Video Service Cards -->
+      <div class="reels-grid">
+        <!-- Card 1: Lipstick & Makeup -->
+        <div class="reel-card" data-service="Haute Bridal & Occasion Makeup">
+          <div class="reel-video-container">
+            <video class="reel-video" loop muted playsinline preload="metadata">
+              <source src="public/lipstick and makeup applying .mp4" type="video/mp4">
+            </video>
+            <div class="reel-overlay">
+              <span class="reel-badge">FEATURED</span>
+              <div class="reel-play-indicator">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="reel-body">
+            <span class="reel-category">MAKEUP ARTISTRY</span>
+            <h3 class="reel-title">Haute Bridal &amp; Occasion Glamour</h3>
+            <p class="reel-desc">
+              Velvet lip sculpting, luminous skin contouring, and long-wearing HD camera-ready makeup designed for brides and elite celebrations.
+            </p>
+            <div class="reel-meta">
+              <span class="reel-price">From ₹4,500</span>
+              <button class="reel-book-btn" onclick="openBookingWithService('Haute Bridal & Occasion Makeup')">
+                Book This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Precision Haircut -->
+        <div class="reel-card" data-service="Precision Dry Haircut & Sculpting">
+          <div class="reel-video-container">
+            <video class="reel-video" loop muted playsinline preload="metadata">
+              <source src="public/hair cutting video.mp4" type="video/mp4">
+            </video>
+            <div class="reel-overlay">
+              <span class="reel-badge">TRENDING</span>
+              <div class="reel-play-indicator">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="reel-body">
+            <span class="reel-category">HAIR ARCHITECTURE</span>
+            <h3 class="reel-title">Precision Dry Haircut &amp; Sculpting</h3>
+            <p class="reel-desc">
+              Cutting dry hair in its natural state to read organic texture, weight distribution, and bone structure for flawless bounce and zero-maintenance styling.
+            </p>
+            <div class="reel-meta">
+              <span class="reel-price">From ₹1,500</span>
+              <button class="reel-book-btn" onclick="openBookingWithService('Precision Dry Haircut & Sculpting')">
+                Book This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Hair Color & Keratin -->
+        <div class="reel-card" data-service="Keratin Silk Infusion & Balayage">
+          <div class="reel-video-container">
+            <video class="reel-video" loop muted playsinline preload="metadata">
+              <source src="public/hair video.mp4" type="video/mp4">
+            </video>
+            <div class="reel-overlay">
+              <span class="reel-badge">RESTORATION</span>
+              <div class="reel-play-indicator">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="reel-body">
+            <span class="reel-category">ADVANCED HAIR CARE</span>
+            <h3 class="reel-title">Keratin Silk Infusion &amp; Balayage</h3>
+            <p class="reel-desc">
+              Molecular bond repair, high-shine glaze, and custom hand-painted dimensional highlights that shimmer with natural sunlight and silky fluidity.
+            </p>
+            <div class="reel-meta">
+              <span class="reel-price">From ₹3,800</span>
+              <button class="reel-book-btn" onclick="openBookingWithService('Keratin Silk Infusion & Balayage')">
+                Book This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Full Bride Showcase -->
+        <div class="reel-card" data-service="The Royal Signature Bridal Package">
+          <div class="reel-video-container">
+            <video class="reel-video" loop muted playsinline preload="metadata">
+              <source src="public/full bride showcase.mp4" type="video/mp4">
+            </video>
+            <div class="reel-overlay">
+              <span class="reel-badge">ROYAL SUITE</span>
+              <div class="reel-play-indicator">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="reel-body">
+            <span class="reel-category">COUTURE BRIDAL</span>
+            <h3 class="reel-title">The Royal Signature Bridal Package</h3>
+            <p class="reel-desc">
+              A comprehensive bridal journey: luxury skin prep, signature airbrush makeup, bespoke hair adornment, dupatta setting, and dedicated artist assistance.
+            </p>
+            <div class="reel-meta">
+              <span class="reel-price">From ₹18,000</span>
+              <button class="reel-book-btn" onclick="openBookingWithService('The Royal Signature Bridal Package')">
+                Book This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       CINEMATIC BRIDAL SPOTLIGHT BANNER
+       ============================================== -->
+  <section class="bridal-spotlight-section" id="bridal-suite">
+    <div class="bridal-video-bg">
+      <video autoplay muted loop playsinline preload="auto">
+        <source src="public/full bride showcase.mp4" type="video/mp4">
+      </video>
+      <div class="bridal-overlay"></div>
+    </div>
+    <div class="container bridal-content">
+      <div class="bridal-inner">
+        <span class="bridal-badge">THE ROYAL BRIDAL LOUNGE</span>
+        <h2 class="bridal-title">Timeless Grace on Your Most Sacred Day</h2>
+        <p class="bridal-text">
+          Our private bridal sanctuary offers an intimate, tranquil oasis where our creative director and master artisans craft your unforgettable heirloom look.
+        </p>
+        <div class="bridal-features-row">
+          <div class="b-feat">
+            <i class="fa-solid fa-crown"></i>
+            <h4>Private Bridal Suite</h4>
+            <p>Exclusive serene suite for you and your entourage</p>
+          </div>
+          <div class="b-feat">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h4>HD &amp; Airbrush Artistry</h4>
+            <p>Waterproof, sweat-proof, 18-hour radiant perfection</p>
+          </div>
+          <div class="b-feat">
+            <i class="fa-solid fa-gem"></i>
+            <h4>Bespoke Dupatta Draping</h4>
+            <p>Couture pleating, jewel positioning &amp; floral weaving</p>
+          </div>
+        </div>
+        <button class="pill-btn btn-solid bridal-cta" onclick="openBookingWithService('The Royal Signature Bridal Package')">
+          RESERVE BRIDAL CONSULTATION
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       INTERACTIVE SERVICE MENU & PRICING
+       ============================================== -->
+  <section class="section menu-pricing-section" id="menu-pricing">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">TRANSPARENT LUXURY</span>
+        <h2 class="section-title">Studio Menu &amp; Treatments</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          Each treatment begins with an in-depth consultation with our senior artisans to tailor every formula to your hair and skin profile.
+        </p>
+      </div>
+
+      <!-- Menu Category Tabs -->
+      <div class="menu-tabs-wrapper">
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-target="tab-hair">
+            <i class="fa-solid fa-scissors"></i> Hair Studio
+          </button>
+          <button class="tab-btn" data-target="tab-bridal">
+            <i class="fa-solid fa-heart"></i> Bridal &amp; Makeup
+          </button>
+          <button class="tab-btn" data-target="tab-keratin">
+            <i class="fa-solid fa-sparkles"></i> Keratin &amp; Spa
+          </button>
+          <button class="tab-btn" data-target="tab-skin">
+            <i class="fa-solid fa-leaf"></i> Skin Aesthetics
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Contents -->
+      <div class="tab-contents-container">
+        <!-- TAB 1: HAIR STUDIO -->
+        <div class="menu-tab-content active" id="tab-hair">
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Signature Dry Haircut</h4>
+                <span class="item-price">₹1,500</span>
+              </div>
+              <p class="item-desc">Precision dry cut tailored to facial anatomy and hair growth patterns, followed by luxury wash and blowout.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 60 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Signature Dry Haircut')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">French Balayage &amp; Babylights</h4>
+                <span class="item-price">₹4,800+</span>
+              </div>
+              <p class="item-desc">Freehand painted multi-dimensional highlights with ammonia-free gloss and bond-protecting olaplex infusion.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 180 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('French Balayage & Babylights')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Editorial Blowout &amp; Waves</h4>
+                <span class="item-price">₹900</span>
+              </div>
+              <p class="item-desc">Deep scalp cleanse, moisture bath, and customized Dyson runway blowout with mirror shine finish.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 45 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Editorial Blowout & Waves')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Global Hair Color &amp; Tone</h4>
+                <span class="item-price">₹3,200+</span>
+              </div>
+              <p class="item-desc">Complete root-to-tip uniform enrichment with conditioning micro-pigments and UV shield sealing.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Global Hair Color & Tone')">Select</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 2: BRIDAL & MAKEUP -->
+        <div class="menu-tab-content" id="tab-bridal">
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Royal Signature Bridal Makeup</h4>
+                <span class="item-price">₹18,000</span>
+              </div>
+              <p class="item-desc">Full couture bridal makeover: luxury skincare prep, HD airbrush application, bespoke eyelashes, hair sculpting, and jewelry styling.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 180 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Royal Signature Bridal Makeup')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Reception &amp; Sangeet Glamour</h4>
+                <span class="item-price">₹8,500</span>
+              </div>
+              <p class="item-desc">High-glamour party look with sculpted eyes, soft luminous base, and evening statement hair design.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Reception & Sangeet Glamour')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Engagement / Roka Artistry</h4>
+                <span class="item-price">₹10,500</span>
+              </div>
+              <p class="item-desc">Romantic dewy aesthetic, soft shimmer eyelids, floral hair braids or chic Hollywood waves.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Engagement / Roka Artistry')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Haute Party Makeup &amp; Hair</h4>
+                <span class="item-price">₹3,500</span>
+              </div>
+              <p class="item-desc">Perfect for weddings guests, anniversaries, and red-carpet galas. Flawless contour and long-stay finish.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 90 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Haute Party Makeup & Hair')">Select</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 3: KERATIN & SPA -->
+        <div class="menu-tab-content" id="tab-keratin">
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Brazilian Keratin Complex</h4>
+                <span class="item-price">₹4,500+</span>
+              </div>
+              <p class="item-desc">Eliminates 95% frizz, delivers mirror glass reflection, and fortifies hair strands with pure hydrolyzed keratin for up to 5 months.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 180 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Brazilian Keratin Complex')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Hair Botox Rejuvenation</h4>
+                <span class="item-price">₹4,200+</span>
+              </div>
+              <p class="item-desc">Intensive anti-aging capillary treatment that fills broken cuticles, restores lost moisture, and adds plush volume.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 150 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Hair Botox Rejuvenation')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Kérastase Chronologiste Spa</h4>
+                <span class="item-price">₹2,800</span>
+              </div>
+              <p class="item-desc">The crown jewel of hair rituals: caviar pearl fusion, invigorating scalp scrub, and heated nutrient steam bath.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 75 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Kérastase Chronologiste Spa')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Nanoplastia Organic Smoothing</h4>
+                <span class="item-price">₹5,500+</span>
+              </div>
+              <p class="item-desc">Formaldehyde-free organic straightening powered by amino acids, silk proteins, and organic plant oils.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 210 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Nanoplastia Organic Smoothing')">Select</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 4: SKIN AESTHETICS -->
+        <div class="menu-tab-content" id="tab-skin">
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Hydra-Infusion Glass Facial</h4>
+                <span class="item-price">₹3,200</span>
+              </div>
+              <p class="item-desc">7-stage vortex suction, lactic acid exfoliation, hyaluronic acid infusion, and cold hammer cryo-firming.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 60 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Hydra-Infusion Glass Facial')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">24K Gold Imperial Radiance</h4>
+                <span class="item-price">₹4,000</span>
+              </div>
+              <p class="item-desc">Pure 24-karat gold leaf mask, collagen peptide massage, and LED phototherapy for instant bridal radiance.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 75 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('24K Gold Imperial Radiance')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Dermaplaning &amp; Enzyme Peel</h4>
+                <span class="item-price">₹2,200</span>
+              </div>
+              <p class="item-desc">Gentle surgical blade removal of peach fuzz and dead epidermis, followed by soothing cucumber aloe compress.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 50 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Dermaplaning & Enzyme Peel')">Select</button>
+              </div>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-head">
+                <h4 class="item-name">Russian Gel Manicure &amp; Spa</h4>
+                <span class="item-price">₹1,800</span>
+              </div>
+              <p class="item-desc">Precision e-file cuticle detailing, organic scrub, hot towel compress, and indestructible gel nail finish.</p>
+              <div class="item-action">
+                <span class="item-duration"><i class="fa-regular fa-clock"></i> 70 mins</span>
+                <button class="item-select-btn" onclick="openBookingWithService('Russian Gel Manicure & Spa')">Select</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       THE PHILOSOPHY & SANCTUARY
+       ============================================== -->
+  <section class="section sanctuary-section" id="experience">
+    <div class="container">
+      <div class="sanctuary-grid">
+        <div class="sanctuary-text-col">
+          <span class="section-subtitle">THE ALPNAAZ PHILOSOPHY</span>
+          <h2 class="editorial-quote">
+            “True luxury is not about excess. It is about undivided attention, immaculate technique, and bringing out the quiet majesty within you.”
+          </h2>
+          <p class="sanctuary-body">
+            Founded with an uncompromising devotion to artistry, Alpnaaz Aesthetic Studio redefines the modern salon experience. Here, high-fashion editorial aesthetics meet customized hospitality. We employ state-of-the-art sterile protocols, imported botanical elixirs, and bespoke lighting to ensure your time with us feels like an unhurried retreat.
+          </p>
+
+          <div class="sanctuary-stats">
+            <div class="stat-box">
+              <span class="stat-number">12k+</span>
+              <span class="stat-label">Happy Brides &amp; Clients</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Years of Mastery</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Sterilized Luxury Tools</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sanctuary-image-col">
+          <div class="sanctuary-card">
+            <img src="public/logo.png" alt="Alpnaaz Emblem" class="sanctuary-emblem">
+            <div class="sanctuary-card-content">
+              <h3>Private VIP Consultation</h3>
+              <p>Complimentary 15-minute hair and skin analysis with every master booking.</p>
+              <button class="pill-btn btn-solid" onclick="openBookingModal()">RESERVE YOUR VISIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       CLIENT REVIEWS / TESTIMONIALS
+       ============================================== -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">VOICES OF DEVOTION</span>
+        <h2 class="section-title">Client Praises</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            “Alpnaaz made my bridal dream a reality. The makeup stayed untouched through 14 hours of tears, photos, and dance. Everyone praised how royal yet natural I looked!”
+          </p>
+          <div class="review-author">
+            <span class="author-name">Dr. Radhika Sen</span>
+            <span class="author-tag">Bridal Client</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            “The dry haircut technique here is extraordinary. I have curly frizz-prone hair, and for the first time in my life, my hair falls with natural symmetry and bounce.”
+          </p>
+          <div class="review-author">
+            <span class="author-name">Meera Singhania</span>
+            <span class="author-tag">Hair Regular</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            “World-class hygiene, calming ambiance, and truly gifted stylists. The Keratin infusion restored my damaged hair to silky perfection. 10/10 recommendation!”
+          </p>
+          <div class="review-author">
+            <span class="author-name">Ananya Deshmukh</span>
+            <span class="author-tag">Keratin Client</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       CONTACT & LOCATION SECTION
+       ============================================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <span class="section-subtitle">VISIT THE SANCTUARY</span>
+            <h2 class="contact-title">Experience Alpnaaz In Person</h2>
+            <p class="contact-desc">
+              We look forward to welcoming you into an ambiance of quiet indulgence. Walk-ins are welcomed subject to availability; advance booking is highly recommended.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="c-item">
+                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Studio Address</strong>
+                  <p>Alpnaaz Aesthetic Studio, Luxury Salon Avenue, VIP Road</p>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <div class="c-icon"><i class="fa-regular fa-clock"></i></div>
+                <div>
+                  <strong>Working Hours</strong>
+                  <p>Monday – Sunday: 10:00 AM – 8:30 PM (All 7 Days)</p>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <strong>Concierge &amp; WhatsApp</strong>
+                  <p>+91 98765 43210 / +91 98765 01234</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-direct-buttons">
+              <a href="https://wa.me/919876543210?text=Hello%20Alpnaaz%20Studio,%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" rel="noopener" class="pill-btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+              </a>
+              <a href="tel:+919876543210" class="pill-btn btn-glass">
+                <i class="fa-solid fa-phone"></i> Call Studio
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-col">
+            <div class="quick-inquiry-card">
+              <h3 class="inquiry-title">Request a Callback</h3>
+              <p class="inquiry-subtitle">Leave your details and our salon concierge will contact you within 30 minutes.</p>
+
+              <form id="quickInquiryForm" class="inquiry-form">
+                <div class="form-group">
+                  <label for="inqName">Your Name</label>
+                  <input type="text" id="inqName" placeholder="e.g. Priyanshi Mehta" required>
+                </div>
+                <div class="form-group">
+                  <label for="inqPhone">Mobile Number</label>
+                  <input type="tel" id="inqPhone" placeholder="e.g. +91 98765 43210" required>
+                </div>
+                <div class="form-group">
+                  <label for="inqService">Preferred Service</label>
+                  <select id="inqService">
+                    <option value="Bridal Makeup Consultation">Bridal Makeup Consultation</option>
+                    <option value="Precision Dry Haircut">Precision Dry Haircut</option>
+                    <option value="Keratin / Hair Botox Treatment">Keratin / Hair Botox Treatment</option>
+                    <option value="Hair Coloring & Balayage">Hair Coloring & Balayage</option>
+                    <option value="HydraFacial Skin Aesthetics">HydraFacial Skin Aesthetics</option>
+                  </select>
+                </div>
+                <button type="submit" class="pill-btn btn-solid full-width">
+                  REQUEST CALLBACK
+                </button>
+              </form>
+              <div id="inquirySuccess" class="inquiry-success-msg">
+                <i class="fa-solid fa-check-circle"></i> Thank you! Our studio concierge will call you shortly.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col brand-col">
+          <img src="public/hero logo.png" alt="Alpnaaz Logo" class="footer-logo">
+          <p class="footer-motto">
+            A sanctuary where bespoke beauty, modern hair architecture, and timeless bridal artistry harmonize.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Signature Craft</a></li>
+            <li><a href="#menu-pricing">Price Menu</a></li>
+            <li><a href="#bridal-suite">Bridal Suite</a></li>
+            <li><a href="#experience">The Philosophy</a></li>
+            <li><a href="#contact">Studio Location</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col hours-col">
+          <h4 class="footer-col-title">Studio Hours</h4>
+          <p class="f-day"><span>Monday – Friday</span> <span>10:00 AM – 8:30 PM</span></p>
+          <p class="f-day"><span>Saturday – Sunday</span> <span>09:30 AM – 9:00 PM</span></p>
+          <p class="f-note">*Bridal suites available early morning by prior reservation.</p>
+        </div>
+
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-col-title">VIP Privileges</h4>
+          <p>Join our private guest list for seasonal beauty showcases and priority booking.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Alpnaaz Privileges!');">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Alpnaaz Aesthetic Studio &amp; Salon. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms of Service</a>
+          <span>•</span>
+          <a href="#">Sanitization Standards</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       INTERACTIVE BOOKING MODAL (SCHEDULE ONLINE)
+       ============================================== -->
+  <div class="modal-backdrop" id="bookingModalBackdrop">
+    <div class="booking-modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Booking Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <span class="modal-eyebrow">ONLINE RESERVATION</span>
+        <h3 id="modalTitle" class="modal-title">Schedule Your Studio Visit</h3>
+        <p class="modal-subtitle">Reserve your personalized consultation &amp; appointment with Alpnaaz artisans.</p>
+      </div>
+
+      <form id="bookingForm" class="modal-form">
+        <!-- Service Selection -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookService">Select Service *</label>
+            <select id="bookService" required>
+              <option value="">-- Choose a service --</option>
+              <optgroup label="Couture Makeup & Bridal">
+                <option value="The Royal Signature Bridal Package">The Royal Signature Bridal Package</option>
+                <option value="Haute Bridal & Occasion Makeup">Haute Bridal & Occasion Makeup</option>
+                <option value="Reception & Sangeet Glamour">Reception & Sangeet Glamour</option>
+                <option value="Engagement / Roka Artistry">Engagement / Roka Artistry</option>
+              </optgroup>
+              <optgroup label="Hair Studio & Styling">
+                <option value="Signature Dry Haircut">Signature Dry Haircut & Sculpting</option>
+                <option value="French Balayage & Babylights">French Balayage & Highlights</option>
+                <option value="Global Hair Color & Tone">Global Hair Color</option>
+                <option value="Editorial Blowout & Waves">Editorial Blowout & Styling</option>
+              </optgroup>
+              <optgroup label="Keratin & Treatments">
+                <option value="Brazilian Keratin Complex">Brazilian Keratin Complex</option>
+                <option value="Hair Botox Rejuvenation">Hair Botox Rejuvenation</option>
+                <option value="Nanoplastia Organic Smoothing">Nanoplastia Organic Smoothing</option>
+                <option value="Kérastase Chronologiste Spa">Kérastase Luxury Hair Spa</option>
+              </optgroup>
+              <optgroup label="Skin & Aesthetics">
+                <option value="Hydra-Infusion Glass Facial">Hydra-Infusion Glass Facial</option>
+                <option value="24K Gold Imperial Radiance">24K Gold Imperial Radiance</option>
+                <option value="Russian Gel Manicure & Spa">Russian Gel Manicure & Spa</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="bookArtist">Preferred Stylist / Artist</label>
+            <select id="bookArtist">
+              <option value="Any Senior Artisan">First Available Senior Artisan</option>
+              <option value="Creative Director (Alpana)">Creative Director (Alpana)</option>
+              <option value="Master Bridal Artist">Master Bridal Artist</option>
+              <option value="Senior Hair Architect">Senior Hair Architect</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Date & Time Slot -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookDate">Preferred Date *</label>
+            <input type="date" id="bookDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="bookTime">Time Slot *</label>
+            <select id="bookTime" required>
+              <option value="Morning (10:00 AM - 01:00 PM)">Morning (10:00 AM - 01:00 PM)</option>
+              <option value="Afternoon (01:00 PM - 05:00 PM)">Afternoon (01:00 PM - 05:00 PM)</option>
+              <option value="Evening (05:00 PM - 08:30 PM)">Evening (05:00 PM - 08:30 PM)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Personal Info -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookName">Full Name *</label>
+            <input type="text" id="bookName" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="bookPhone">WhatsApp / Mobile *</label>
+            <input type="tel" id="bookPhone" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+
+        <!-- Special Requests -->
+        <div class="form-group">
+          <label for="bookNotes">Special Notes / Desired Look (Optional)</label>
+          <textarea id="bookNotes" rows="2" placeholder="Tell us about your hair type, skin preferences, or bridal date..."></textarea>
+        </div>
+
+        <!-- Submit Options -->
+        <div class="modal-btn-row">
+          <button type="button" class="pill-btn btn-whatsapp" id="bookWhatsAppBtn">
+            <i class="fa-brands fa-whatsapp"></i> Confirm via WhatsApp
+          </button>
+          <button type="submit" class="pill-btn btn-solid">
+            Confirm Booking
+          </button>
+        </div>
+      </form>
+
+      <!-- Confirmation Screen -->
+      <div class="booking-confirmation" id="bookingConfirmation">
+        <div class="confirm-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <h3 class="confirm-title">Reservation Requested!</h3>
+        <p class="confirm-text">
+          Thank you, <span id="confirmName"></span>. We have registered your reservation for <strong id="confirmService"></strong> on <strong id="confirmDate"></strong> (<span id="confirmTime"></span>).
+        </p>
+        <p class="confirm-sub">Our studio team will send your appointment confirmation &amp; reminder on WhatsApp shortly.</p>
+        <button class="pill-btn btn-solid" id="confirmDoneBtn">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick WhatsApp Button -->
+  <a href="https://wa.me/919876543210?text=Hello%20Alpnaaz%20Aesthetic%20Studio,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="tooltip">Chat with Concierge</span>
+  </a>
+
+  <!-- Minimalist Luxury Custom Cursor (Desktop Only) -->
+  <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
