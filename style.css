@@ -559,9 +559,6 @@ ul {
   border: 1px solid var(--accent-red);
   box-shadow: 0 4px 20px var(--accent-red-glow);
 }
-  color: #0c0c0e !important;
-  font-weight: 600;
-}
 
 /* ==========================================================================
    HERO SECTION (Pixel Homage to Spoke & Weal Reference)
@@ -576,7 +573,7 @@ ul {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 85px 24px 65px;
+  padding: 105px 24px 65px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -1067,14 +1064,6 @@ ul {
 
 .reel-book-btn:hover {
   color: var(--accent-red-light);
-  gap: 12px;
-}
-  font-weight: 600;
-  transition: var(--transition-fast);
-}
-
-.reel-book-btn:hover {
-  color: #ffffff;
   gap: 12px;
 }
 
@@ -2147,7 +2136,7 @@ ul {
     min-height: 100svh;
     width: 100% !important;
     max-width: 100% !important;
-    padding: 72px 16px 54px !important;
+    padding: 85px 16px 54px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
